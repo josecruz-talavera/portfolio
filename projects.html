@@ -1,0 +1,70 @@
+
+
+<html>
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="assets/css/projects.css">
+    </head>
+
+    <body>
+        <div class="background-image"></div>
+
+        
+  
+        
+        <div class="projects-container">
+            <button class="close-btn" onclick="goHome()">×</button>
+            <h1>Projects</h1>
+
+            <p class="project-title">Healthcare Provider Directory:</p>
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="assets/images/healthcare-provider.jpg" alt="healthcare provider" class="project-image">
+                </div>
+                <div class="slide fade">
+                    <img src="assets/images/suites.jpg" alt="suites" class="project-image">
+                </div>
+                <button class="prev" onclick="changeSlide(-1, 1)">❮</button>
+                <button class="next" onclick="changeSlide(1, 1)">❯</button>
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1, 1)"></span>
+                    <span class="dot" onclick="currentSlide(2, 1)"></span>
+                </div>
+            </div>
+            <p>Healthcare-Provider-Directory was built to assist my co-workers in searching for Doctors in our hospitals.
+               It was the first time I used my knowledge in coding to solve a real world problem. Our company offered us 
+               thousands of Doctors through a spreadsheet and it was fairly difficult to search for the Providers and see
+               their details. I used this file to my advantage and converted it into an online directory where you can search by name,
+               location, or specialty. It has made the workspace efficient and quick. The workers are happy with the easy and simple approach to searching.
+            </p>
+
+            <p class="project-title">TalaveraFitness:</p>
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="assets/images/current-day.JPG" alt="Current Day" class="project-image">
+                </div>
+                <div class="slide fade">
+                    <img src="assets/images/workout-explanation.JPG" alt="Workout Explanation" class="project-image">
+                </div>
+                <button class="prev" onclick="changeSlide(-1, 2)">❮</button>
+                <button class="next" onclick="changeSlide(1, 2)">❯</button>
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1, 2)"></span>
+                    <span class="dot" onclick="currentSlide(2, 2)"></span>
+                </div>
+            </div>
+            <p>I built a web application for anyone interested in being trained by me.
+                You would sign up on the app and log in.
+                During the creation of your account the app will ask about your gym
+                experience and depending on your answer, you will get a routine just for you.
+                The routine will change every six weeks. This app makes working out easier
+                by guiding you towards your goals daily. Very simple and easy to use. Each workout
+                has a video demonstration and a description of the exercise. Once you complete a workout,
+                you can log it and the app will keep track of your progress.
+            </p>
+        </div>
+        <script src="assets/js/go_home.js"></script>
+        <script src="assets/js/slideshow.js"></script>
+    </body>
+</html>
+
