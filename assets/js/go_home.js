@@ -1,3 +1,3 @@
 function goHome() {
-    window.location.href = "/"; // Redirects to home
+    window.location.href = "/portfolio/index.html"; // Redirects to home
 }
