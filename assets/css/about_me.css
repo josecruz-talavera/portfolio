@@ -11,7 +11,7 @@ body {
     
 }
 .background-image {
-    background: url("/portfolio/assets/images/bg-pic.JPG") no-repeat center center fixed;
+    background: url("/my-portfolio/assets/images/bg-pic.JPG") no-repeat center center fixed;
     position: fixed;
     top: 0;
     left: 0;
@@ -58,7 +58,7 @@ body {
     letter-spacing: 1px;
 }
 
-p {
+.about-description {
     font-size: 1.3em;
     line-height: 1.6;
     margin: 20px 0;
