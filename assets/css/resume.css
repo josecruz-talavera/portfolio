@@ -4,7 +4,10 @@ body {
     padding: 0;
     background: #708090;
     text-align: center;
-    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .background-image {
     background: url("/portfolio/assets/images/bg-pic.JPG") no-repeat center center fixed;
@@ -22,12 +25,13 @@ body {
     position: relative;
     background: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
     color: white;
-    padding: 20px;
+    padding: 40px;
     margin: 50px auto;
-    width: 80%;
-    max-width: 600px;
+    width: 90%;
+    max-width: 800px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -38,6 +42,22 @@ h1 {
     font-weight: 300;
     margin-bottom: 50px;
     letter-spacing: 1px;
+}
+
+.resume-iframe-container {
+    position: relative;
+    width: 100%;
+    padding-top: 141.4%; /* 4:3 Aspect Ratio */
+    margin: 20px 0;
+}
+
+.resume-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 .close-btn {
@@ -60,8 +80,79 @@ h1 {
     background: grey;
 }
 
-iframe {
-    width: 100%;
-    height: 500px;
-    border: none;
+/* Tablet Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 30px;
+        margin: 30px auto;
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 2.3em;
+        margin-bottom: 30px;
+    }
+
+    .resume-iframe-container {
+        margin: 15px 0;
+    }
+
+    .close-btn {
+        top: 15px;
+        right: 15px;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 20px;
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .resume-iframe-container {
+        margin: 10px 0;
+    }
+
+    .close-btn {
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
+}
+
+/* Small Mobile Styles */
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 15px;
+        margin: 15px auto;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+
+    .resume-iframe-container {
+        margin: 8px 0;
+    }
+
+    .close-btn {
+        top: 8px;
+        right: 8px;
+        width: 25px;
+        height: 25px;
+        font-size: 16px;
+    }
 }
