@@ -50,6 +50,7 @@ h1 {
     margin: 40px 0 20px;
     color: #ffffff;
     text-align: left;
+    padding: 0 10px;
 }
 
 .project-image {
@@ -62,12 +63,13 @@ h1 {
     display: block;
 }
 
-p {
+.project-description {
     font-size: 1.1em;
     line-height: 1.6;
-    margin: 20px 0;
+    margin: 15px 0;
     color: #e0e0e0;
     text-align: left;
+    padding: 0 10px;
 }
 
 .close-btn {
