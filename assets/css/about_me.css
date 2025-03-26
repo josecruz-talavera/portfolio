@@ -11,7 +11,7 @@ body {
     
 }
 .background-image {
-    background: url("/my-portfolio/assets/images/bg-pic.JPG") no-repeat center center fixed;
+    background: url("/portfolio/assets/images/bg-pic.JPG") no-repeat center center fixed;
     position: fixed;
     top: 0;
     left: 0;
