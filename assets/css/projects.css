@@ -64,7 +64,7 @@ h1 {
 }
 
 .project-description {
-    font-size: 1.1em;
+    font-size: 1.5em;
     line-height: 1.6;
     margin: 15px 0;
     color: #e0e0e0;
@@ -187,9 +187,11 @@ h1 {
         margin: 30px 0 15px;
     }
 
-    p {
-        font-size: 1em;
-        line-height: 1.5;
+    .project-description {
+        font-size: 1.4em;
+        line-height: 1.6;
+        margin: 15px 0;
+        padding: 0 8px;
     }
 
     .prev, .next {
@@ -216,9 +218,12 @@ h1 {
         margin: 25px 0 15px;
     }
 
-    p {
-        font-size: 0.95em;
-        line-height: 1.4;
+    .project-description {
+        font-size: 1.3em;
+        line-height: 1.5;
+        margin: 12px 0;
+        padding: 0 5px;
+        letter-spacing: 0.2px;
     }
 
     .prev, .next {
@@ -250,8 +255,12 @@ h1 {
         margin: 20px 0 10px;
     }
 
-    p {
-        font-size: 0.9em;
+    .project-description {
+        font-size: 1.2em;
+        line-height: 1.4;
+        margin: 10px 0;
+        padding: 0 3px;
+        letter-spacing: 0.3px;
     }
 
     .prev, .next {

@@ -59,7 +59,7 @@ body {
 }
 
 .about-description {
-    font-size: 1.3em;
+    font-size: 1.5em;
     line-height: 1.6;
     margin: 20px 0;
     text-align: left;
@@ -101,8 +101,8 @@ body {
         
     }
 
-    p {
-        font-size: 1.2em;
+    .about-description {
+        font-size: 1.4em;
         line-height: 1.6;
         margin: 15px 0;
         padding: 0 8px;
@@ -130,8 +130,8 @@ body {
         margin-bottom: 20px;
     }
 
-    p {
-        font-size: 1.1em;
+    .about-description {
+        font-size: 1.3em;
         line-height: 1.5;
         margin: 12px 0;
         padding: 0 5px;
@@ -163,8 +163,8 @@ body {
         margin-bottom: 15px;
     }
 
-    p {
-        font-size: 1em;
+    .about-description {
+        font-size: 1.2em;
         line-height: 1.4;
         margin: 10px 0;
         padding: 0 3px;
