@@ -2,7 +2,7 @@ let slideIndexes = [1, 1, 1]; // Array to track slides for each slideshow
 
 // Initialize all slideshows
 function initSlideshows() {
-    for (let i = 1; i <= 3; i++) {
+    for (let i = 1; i <= 4; i++) {
         showSlides(1, i);
     }
 }
