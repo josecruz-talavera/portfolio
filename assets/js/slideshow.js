@@ -1,4 +1,4 @@
-let slideIndexes = [1, 1, 1]; // Array to track slides for each slideshow
+let slideIndexes = [1, 1, 1, 1]; // Array to track slides for each slideshow
 
 // Initialize all slideshows
 function initSlideshows() {
