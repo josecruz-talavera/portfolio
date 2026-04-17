@@ -16,8 +16,9 @@ function currentSlide(n, slideshowNum) {
 }
 
 function showSlides(n, slideshowNum) {
-    let slides = document.querySelectorAll(`.slideshow-container:nth-of-type(${slideshowNum}) .slide`);
-    let dots = document.querySelectorAll(`.slideshow-container:nth-of-type(${slideshowNum}) .dot`);
+    let container = document.querySelectorAll('.slideshow-container')[slideshowNum - 1];
+    let slides = container.querySelectorAll('.slide');
+    let dots = container.querySelectorAll('.dot');
     
     if (n > slides.length) {slideIndexes[slideshowNum - 1] = 1}
     if (n < 1) {slideIndexes[slideshowNum - 1] = slides.length}
