@@ -33,4 +33,4 @@ function showSlides(n, slideshowNum) {
 }
 
 // Initialize slideshows when the page loads
-window.onload = initSlideshows; 
+window.onload = initSlideshows;
