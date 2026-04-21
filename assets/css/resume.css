@@ -106,6 +106,11 @@ h1 {
     }
 }
 
+/* Mobile fallback - hidden on desktop */
+.resume-mobile-fallback {
+    display: none;
+}
+
 /* Mobile Styles */
 @media screen and (max-width: 480px) {
     .container {
@@ -120,7 +125,43 @@ h1 {
     }
 
     .resume-iframe-container {
-        margin: 10px 0;
+        display: none; /* Hide iframe on mobile */
+    }
+
+    .resume-mobile-fallback {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    .resume-mobile-fallback p {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 0.95em;
+        margin: 0;
+    }
+
+    .view-btn, .download-btn {
+        display: inline-block;
+        padding: 12px 30px;
+        border-radius: 8px;
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: none;
+        width: 200px;
+        text-align: center;
+    }
+
+    .view-btn {
+        background: white;
+        color: black;
+    }
+
+    .download-btn {
+        background: transparent;
+        color: white;
+        border: 2px solid white;
     }
 
     .close-btn {
