@@ -105,7 +105,37 @@
                 allowing the app to track their progress over time.
             </p>
 
-            <p class="project-title">Brisblogs:</p>
+            <p class="project-title">NetCheck:</p>
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="assets/images/netcheck-search.jpg" alt="Insurance Search" class="project-image">
+                </div>
+                <div class="slide fade">
+                    <img src="assets/images/netcheck-admin.jpg" alt="Admin Dashboard" class="project-image">
+                </div>
+                <button class="prev" onclick="changeSlide(-1, 5)">❮</button>
+                <button class="next" onclick="changeSlide(1, 5)">❯</button>
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1, 5)"></span>
+                    <span class="dot" onclick="currentSlide(2, 5)"></span>
+                </div>
+            </div>
+            <p class="project-description">
+                NetCheck was built to solve a daily headache at the front desk: checking whether a
+                patient's insurance is in-network. Our office relied on a constantly-changing Excel
+                sheet buried in Teams, and staff had no fast way to search it or know when it had
+                been updated. I built a Flask web app backed by a PostgreSQL database so anyone
+                could instantly search a plan by name and see its status.
+            </p>
+            <p class="project-description">
+                The app shows three network states — In-Network, Limited Network (select providers
+                only), and Out-of-Network — along with referral requirements and provider-specific
+                notes, all through a color-coded, mobile-friendly interface. I also built a
+                Flask-Admin dashboard so non-technical staff can add or update insurances themselves,
+                and deployed the whole thing live on Render with a Supabase-hosted database.
+            </p>
+
+
             <div class="slideshow-container">
                 <div class="slide fade">
                     <img src="assets/images/homepage.JPG" alt="Homepage" class="project-image">
